@@ -1,5 +1,6 @@
 FROM alpine
-MAINTAINER Uwe Schwarz, git@iq42.de
+LABEL maintainer="Uwe Schwarz, <git@iq42.de>"
+
 
 RUN apk add --update aria2
 
